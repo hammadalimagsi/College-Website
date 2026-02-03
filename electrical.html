@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Tech | GCT Bhakkar</title>
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Spinner -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Back to Top -->
+    <div id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">
+                <i class="fas fa-graduation-cap text-gold me-2"></i> GCT BHAKKAR
+            </a>
+            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="programs.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="programs.html">All Technologies</a></li>
+                            <li>
+                                <hr class="dropdown-divider border-secondary">
+                            </li>
+                            <li><a class="dropdown-item" href="cit.html">Computer Info Tech</a></li>
+                            <li><a class="dropdown-item" href="electrical.html">Electrical Tech</a></li>
+                            <li><a class="dropdown-item" href="civil.html">Civil Tech</a></li>
+                            <li><a class="dropdown-item" href="electronics.html">Electronics Tech</a></li>
+                            <li><a class="dropdown-item" href="mechanical.html">Mechanical Tech</a></li>
+                            <li>
+                                <hr class="dropdown-divider border-secondary">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Short Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="admissions.html" class="btn btn-gold ms-3">Apply Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="hero-section"
+        style="min-height: 40vh; align-items: center; justify-content: center; text-align: center;">
+        <div class="container" data-aos="fade-up">
+            <h1 class="display-4 fw-bold">Electrical Technology</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-gold">Home</a></li>
+                    <li class="breadcrumb-item"><a href="programs.html" class="text-gold">Programs</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Electrical</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Overview -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b96058c42a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        class="img-fluid rounded border border-2 border-secondary shadow-lg" alt="Electrical">
+                </div>
+                <div class="col-lg-6 ps-lg-5" data-aos="fade-left">
+                    <h2 class="display-6 fw-bold mb-4">Powering the Nation</h2>
+                    <p class="lead text-secondary mb-4">
+                        Electrical Technology is the cornerstone of modern industry. Our DAE program provides deep
+                        insights into power generation, transmission, and distribution systems.
+                    </p>
+                    <p class="text-secondary">
+                        Students work with high-tech equipment in our labs to understand circuit theory, motor controls,
+                        and industrial wiring, preparing them for critical roles in the energy sector.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Cards -->
+    <section class="section-padding bg-dark-card">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h3 class="text-white fw-bold">Skills You Will Learn</h3>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-3 col-6" data-aos="zoom-in">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-plug fa-2x text-gold mb-3"></i>
+                        <h6>Wiring</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-bolt fa-2x text-gold mb-3"></i>
+                        <h6>Power Systems</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-cogs fa-2x text-gold mb-3"></i>
+                        <h6>Motor Control</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-solar-panel fa-2x text-gold mb-3"></i>
+                        <h6>Solar Tech</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-calculator fa-2x text-gold mb-3"></i>
+                        <h6>Calculations</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-tools fa-2x text-gold mb-3"></i>
+                        <h6>Maintenance</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-project-diagram fa-2x text-gold mb-3"></i>
+                        <h6>Circuit Design</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="skill-card h-100">
+                        <i class="fas fa-hard-hat fa-2x text-gold mb-3"></i>
+                        <h6>Safety</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h3 class="text-white fw-bold">Curriculum Breakdown</h3>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="bg-dark-card border border-secondary rounded p-4 h-100">
+                        <h4 class="text-gold mb-4 border-bottom border-secondary pb-2">First Year</h4>
+                        <ul class="text-secondary ps-3">
+                            <li class="mb-2">Principles of Electrical Eng</li>
+                            <li class="mb-2">Electrical Wiring</li>
+                            <li class="mb-2">Workshop Practice</li>
+                            <li class="mb-2">Applied Physics & Chem</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-dark-card border border-secondary rounded p-4 h-100">
+                        <h4 class="text-gold mb-4 border-bottom border-secondary pb-2">Second Year</h4>
+                        <ul class="text-secondary ps-3">
+                            <li class="mb-2">Electrical Machines I (DC)</li>
+                            <li class="mb-2">Electrical Measuring Inst.</li>
+                            <li class="mb-2">Electronics</li>
+                            <li class="mb-2">Digital Logic Design</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-dark-card border border-secondary rounded p-4 h-100">
+                        <h4 class="text-gold mb-4 border-bottom border-secondary pb-2">Third Year</h4>
+                        <ul class="text-secondary ps-3">
+                            <li class="mb-2">Electrical Machines II (AC)</li>
+                            <li class="mb-2">Power Trans & Distribution</li>
+                            <li class="mb-2">Industrial Automation</li>
+                            <li class="mb-2">Telecommunication</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Opportunities -->
+    <section class="section-padding bg-dark-card">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h3 class="text-white fw-bold">Career Opportunities</h3>
+            </div>
+            <div class="row g-4 justify-content-center text-center">
+                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
+                    <div class="p-3 border border-secondary rounded bg-primary-bg h-100">
+                        <h6 class="mb-0">Sub-Engineer</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="p-3 border border-secondary rounded bg-primary-bg h-100">
+                        <h6 class="mb-0">Power Plant Tech</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="p-3 border border-secondary rounded bg-primary-bg h-100">
+                        <h6 class="mb-0">Supervisor</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="p-3 border border-secondary rounded bg-primary-bg h-100">
+                        <h6 class="mb-0">Control Room Op</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="contact-strip text-center bg-gold" style="background: linear-gradient(45deg, #b39250, #CFAE70);">
+        <div class="container py-5" data-aos="fade-up">
+            <h2 class="text-dark fw-bold mb-3">Spark Your Career in Engineering</h2>
+            <div class="d-flex justify-content-center gap-3 mt-4">
+                <a href="admissions.html" class="btn btn-dark px-4 py-2">Apply for Electrical</a>
+                <a href="contact.html" class="btn btn-outline-dark px-4 py-2">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h4 class="text-white mb-4">GCT BHAKKAR</h4>
+                    <p class="text-secondary">Providing quality technical education since 1982. Committed to excellence
+                        and innovation.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="admissions.html" class="footer-link">Admissions</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-white mb-4">Programs</h5>
+                    <a href="cit.html" class="footer-link">CIT</a>
+                    <a href="electrical.html" class="footer-link">Electrical</a>
+                    <a href="mechanical.html" class="footer-link">Mechanical</a>
+                    <a href="civil.html" class="footer-link">Civil</a>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-white mb-4">Follow Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-gold fs-4"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gold fs-4"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gold fs-4"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <p class="text-secondary mt-4 mb-0">&copy; 2026 GCT Bhakkar. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

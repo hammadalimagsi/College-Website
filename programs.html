@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs & Technologies | GCT Bhakkar</title>
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Spinner -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Back to Top -->
+    <div id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">
+                <i class="fas fa-graduation-cap text-gold me-2"></i> GCT BHAKKAR
+            </a>
+            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="programs.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="programs.html">All Technologies</a></li>
+                            <li>
+                                <hr class="dropdown-divider border-secondary">
+                            </li>
+                            <li><a class="dropdown-item" href="cit.html">Computer Info Tech</a></li>
+                            <li><a class="dropdown-item" href="electrical.html">Electrical Tech</a></li>
+                            <li><a class="dropdown-item" href="civil.html">Civil Tech</a></li>
+                            <li><a class="dropdown-item" href="electronics.html">Electronics Tech</a></li>
+                            <li><a class="dropdown-item" href="mechanical.html">Mechanical Tech</a></li>
+                            <li>
+                                <hr class="dropdown-divider border-secondary">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Short Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="admissions.html" class="btn btn-gold ms-3">Apply Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="hero-section"
+        style="min-height: 40vh; align-items: center; justify-content: center; text-align: center;">
+        <div class="container" data-aos="fade-up">
+            <h1 class="display-4 fw-bold">Technologies & Programs</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-gold">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Programs</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introduction -->
+    <section class="section-padding pb-0 text-center">
+        <div class="container">
+            <div class="col-lg-8 mx-auto" data-aos="fade-up">
+                <h2 class="display-6 fw-bold mb-4">Empowering the Future Workforce</h2>
+                <p class="text-secondary lead">
+                    We offer a wide range of 3-year Diploma of Associate Engineer (DAE) programs and short courses
+                    designed to equip students with practical skills and technical knowledge.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Grid -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h3 class="text-white fw-bold">Diploma of Associate Engineer (DAE)</h3>
+                <p class="text-secondary">3 Years Degree Program</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- CIT -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card bg-dark-card border-secondary h-100 hover-glow">
+                        <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="CIT" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="fw-bold text-white mb-2">Computer Info Technology</h5>
+                            <span class="badge bg-gold text-dark mb-3">3 Years</span>
+                            <p class="text-secondary small mb-4">Master software development, networking, and database
+                                management in our state-of-the-art computer labs.</p>
+                            <a href="cit.html" class="btn btn-outline-gold w-100">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electrical -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card bg-dark-card border-secondary h-100 hover-glow">
+                        <img src="https://images.unsplash.com/photo-1621905251189-08b96058c42a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Electrical" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="fw-bold text-white mb-2">Electrical Technology</h5>
+                            <span class="badge bg-gold text-dark mb-3">3 Years</span>
+                            <p class="text-secondary small mb-4">Learn about power generation, industrial automation,
+                                and electrical systems maintenance.</p>
+                            <a href="electrical.html" class="btn btn-outline-gold w-100">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Civil -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card bg-dark-card border-secondary h-100 hover-glow">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Civil" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="fw-bold text-white mb-2">Civil Technology</h5>
+                            <span class="badge bg-gold text-dark mb-3">3 Years</span>
+                            <p class="text-secondary small mb-4">Expertise in structural design, surveying, and
+                                construction management for infrastructure projects.</p>
+                            <a href="civil.html" class="btn btn-outline-gold w-100">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electronics -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card bg-dark-card border-secondary h-100 hover-glow">
+                        <img src="https://images.unsplash.com/photo-1555664424-778a69032054?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Electronics" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="fw-bold text-white mb-2">Electronics Technology</h5>
+                            <span class="badge bg-gold text-dark mb-3">3 Years</span>
+                            <p class="text-secondary small mb-4">Dive into digital electronics, microcontrollers, and
+                                communication systems technology.</p>
+                            <a href="electronics.html" class="btn btn-outline-gold w-100">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mechanical -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card bg-dark-card border-secondary h-100 hover-glow">
+                        <img src="https://images.unsplash.com/photo-1537462713117-1a0dedbd454d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Mechanical" style="height: 200px; object-fit: cover;">
+                        <div class="card-body p-4 text-center">
+                            <h5 class="fw-bold text-white mb-2">Mechanical Technology</h5>
+                            <span class="badge bg-gold text-dark mb-3">3 Years</span>
+                            <p class="text-secondary small mb-4">Focus on machine design, thermodynamics, and modern
+                                manufacturing processes.</p>
+                            <a href="mechanical.html" class="btn btn-outline-gold w-100">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Short Courses -->
+    <section class="section-padding bg-dark-card">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="text-gold text-uppercase fw-bold small">Skill Development</span>
+                <h3 class="text-white fw-bold">Short Courses</h3>
+                <p class="text-secondary">Quick Track to Professional Skills</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3" data-aos="fade-up">
+                    <div class="bg-primary-bg p-4 rounded border border-secondary h-100">
+                        <h5 class="text-white fw-bold mb-2">Web Development</h5>
+                        <p class="text-gold small mb-2">Duration: 6 Months</p>
+                        <p class="text-secondary small mb-3">HTML5, CSS3, JS, Bootstrap. Build responsive websites.</p>
+                        <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-primary-bg p-4 rounded border border-secondary h-100">
+                        <h5 class="text-white fw-bold mb-2">AutoCAD</h5>
+                        <p class="text-gold small mb-2">Duration: 3 Months</p>
+                        <p class="text-secondary small mb-3">2D & 3D Drafting for Civil and Mechanical drawings.</p>
+                        <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-primary-bg p-4 rounded border border-secondary h-100">
+                        <h5 class="text-white fw-bold mb-2">Domestic Wiring</h5>
+                        <p class="text-gold small mb-2">Duration: 3 Months</p>
+                        <p class="text-secondary small mb-3">House wiring, safety standards, and appliance repair.</p>
+                        <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-primary-bg p-4 rounded border border-secondary h-100">
+                        <h5 class="text-white fw-bold mb-2">Computer Basics</h5>
+                        <p class="text-gold small mb-2">Duration: 3 Months</p>
+                        <p class="text-secondary small mb-3">MS Office, Internet Browsing, and Typing mastery.</p>
+                        <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Table -->
+    <section class="section-padding">
+        <div class="container" data-aos="fade-up">
+            <div class="text-center mb-5">
+                <h3 class="text-white fw-bold">Program Eligibility & Details</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="custom-table text-center align-middle">
+                    <thead>
+                        <tr>
+                            <th>Technology Program</th>
+                            <th>Eligibility Criteria</th>
+                            <th>Duration</th>
+                            <th>Shifts Available</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-start ps-4 fw-bold">Computer Info Tech</td>
+                            <td>Matric (Science) / TSP</td>
+                            <td>3 Years</td>
+                            <td>Morning / Evening</td>
+                            <td><a href="cit.html" class="btn btn-sm btn-gold">Details</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start ps-4 fw-bold">Electrical Tech</td>
+                            <td>Matric (Science) / TSP</td>
+                            <td>3 Years</td>
+                            <td>Morning / Evening</td>
+                            <td><a href="electrical.html" class="btn btn-sm btn-gold">Details</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start ps-4 fw-bold">Civil Tech</td>
+                            <td>Matric (Science) / TSP</td>
+                            <td>3 Years</td>
+                            <td>Morning</td>
+                            <td><a href="civil.html" class="btn btn-sm btn-gold">Details</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start ps-4 fw-bold">Electronics Tech</td>
+                            <td>Matric (Science) / TSP</td>
+                            <td>3 Years</td>
+                            <td>Morning</td>
+                            <td><a href="electronics.html" class="btn btn-sm btn-gold">Details</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start ps-4 fw-bold">Mechanical Tech</td>
+                            <td>Matric (Science) / TSP</td>
+                            <td>3 Years</td>
+                            <td>Morning / Evening</td>
+                            <td><a href="mechanical.html" class="btn btn-sm btn-gold">Details</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h4 class="text-white mb-4">GCT BHAKKAR</h4>
+                    <p class="text-secondary">Providing quality technical education since 1982. Committed to excellence
+                        and innovation.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="admissions.html" class="footer-link">Admissions</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-white mb-4">Programs</h5>
+                    <a href="cit.html" class="footer-link">CIT</a>
+                    <a href="electrical.html" class="footer-link">Electrical</a>
+                    <a href="mechanical.html" class="footer-link">Mechanical</a>
+                    <a href="civil.html" class="footer-link">Civil</a>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-white mb-4">Follow Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-gold fs-4"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gold fs-4"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gold fs-4"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <p class="text-secondary mt-4 mb-0">&copy; 2026 GCT Bhakkar. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
