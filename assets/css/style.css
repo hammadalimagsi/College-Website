@@ -429,33 +429,53 @@ a:hover i {
     padding-left: 5px;
 }
 
-/* Loading Spinner */
-#loader {
-    position: fixed;
-    top: 0;
-    left: 0;
+/* Project Cards */
+.project-card {
+    background: var(--secondary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: var(--card-shadow);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--hover-shadow);
+    border-color: var(--primary-color);
+}
+
+.project-img {
     width: 100%;
-    height: 100%;
-    background-color: var(--primary-bg);
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
 }
 
-.spinner {
-    width: 50px;
-    height: 50px;
-    border: 5px solid rgba(29, 78, 216, 0.3);
-    border-radius: 50%;
-    border-top-color: var(--primary-color);
-    animation: spin 1s ease-in-out infinite;
+.project-card:hover .project-img {
+    transform: scale(1.1);
 }
 
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
+/* Gold Badge Utility */
+.bg-gold {
+    background-color: #D4AF37 !important;
+    color: #000 !important;
+    font-weight: 700;
+}
+
+/* Dark Modal Styling */
+.modal-content-dark {
+    background-color: var(--secondary-bg) !important;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+
+.close-btn-white {
+    filter: invert(1) grayscale(100) brightness(200);
+}
+
+.bg-dark-gradient {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
 }
 
 /* Accordion */
@@ -588,17 +608,74 @@ a:hover i {
 }
 
 .contact-info-card {
-    background: var(--secondary-bg);
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--border-color);
-    padding: 30px;
-    border-radius: 12px;
-    transition: all 0.3s ease;
+    padding: 40px 30px;
+    border-radius: 20px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     box-shadow: var(--card-shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+[data-theme="light"] .contact-info-card {
+    background: rgba(255, 255, 255, 0.7);
+    border-color: rgba(0, 0, 0, 0.05);
 }
 
 .contact-info-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     border-color: var(--primary-color);
+    box-shadow: var(--hover-shadow);
+    background: rgba(29, 78, 216, 0.05);
+}
+
+.contact-info-card i {
+    transition: all 0.4s ease;
+    display: inline-block;
+    padding: 15px;
+    background: rgba(20, 184, 166, 0.1);
+    border-radius: 12px;
+}
+
+.contact-info-card:hover i {
+    transform: scale(1.1) rotate(5deg);
+    background: var(--primary-color);
+    color: #fff !important;
+}
+
+/* Contact Form Enhancements */
+.contact-form-dark .form-control {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 16px;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form-dark .form-control:focus {
+    background-color: var(--primary-bg);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 20px rgba(29, 78, 216, 0.15);
+    transform: translateY(-2px);
+}
+
+.contact-form-dark label {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.map-container {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.map-container:hover {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 15px 40px rgba(29, 78, 216, 0.15);
 }
 
 /* Map */
